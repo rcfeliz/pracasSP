@@ -1,0 +1,10 @@
+---
+title: "Places publiques"
+author: "Ricardo Feliz OKAMOTO"
+format: pdf
+editor: visual
+---
+
+# Introduction
+
+La privatisation ne se réfère pas à un terme juridique spécifique, mais à un ensemble d'instruments juridiques, divers tels que les partenariats public-privé (PPP), les contrats de gestion avec des organisations de la société civile, les contrats de Build, Operate and Transfer (BOT), les montages aller-retour, la délégation de services publics, les contrats de concession de travaux, entre autres. Tous ces instruments peuvent être rapprochés par le concept de privatisation car ils partagent un noyau commun : le transfert de pouvoir d'une entité publique à une entité privée. Ce transfert peut se faire par la cession de la possession ou de la propriété d'un bien public, mais peut également se réaliser sans affecter la propriété ou la possession, en transférant uniquement des droits et des devoirs publics à une entité privée. C'est ce concept large de privatisation que nous utiliserons tout au long de ce texte.
