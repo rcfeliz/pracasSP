@@ -68,14 +68,18 @@ sub <- sf::read_sf("data-raw/polygons/SIRGAS_SHP_subprefeitura/SIRGAS_SHP_subpre
 # plot sf -----------------------------------------------------------------
 
 sub |>
+  # dplyr::arrange(desc(prop_termos)) |>
+  # dplyr::mutate(
+  #   prop_termos = dplyr::case_when(
+  #     sp_sigla == "PI" ~ 0.25,
+  #     TRUE ~ prop_termos
+  #   )
+  # ) |>
   ggplot2::ggplot() +
   ggplot2::geom_sf(ggplot2::aes(fill = prop_termos)) +
-  ggplot2::geom_sf_label(ggplot2::aes(label = sp_nome), size = 2) +
-  ggplot2::theme_minimal() +
-  terra::scalebar(location = "bottomleft", dist = 500, dist_unit = "km",
-           transform = TRUE, model = "WGS84")
+  ggplot2::theme_minimal()
 
-p_idh <- sub |>
+sub |>
   ggplot2::ggplot() +
   ggplot2::aes(fill = idh) +
   ggplot2::geom_sf() +
